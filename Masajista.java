@@ -44,4 +44,15 @@ public class Masajista extends Persona {
         System.out.println("Dar masajes");
     }
 
+    @Override
+    public void mostrarInf(){
+        System.out.println("ID: " + getId());
+        System.out.println("Nombre: " + getNombre());
+        System.out.println("Apellido: " + getApellido());
+        System.out.println("Edad: " + getEdad());
+        System.out.println("Titulación: " + getTitulacion());
+         System.out.println("años de esperiencia: " + getAnnoExperiencia());
+
+    }
+
 }

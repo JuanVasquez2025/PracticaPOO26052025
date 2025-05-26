@@ -48,6 +48,17 @@ public class Futbolista extends Persona {
         System.out.println("Viajar como futbolista");
     }
 
+    @Override
+    public void mostrarInf(){
+        System.out.println("ID: " + getId());
+        System.out.println("Nombre: " + getNombre());
+        System.out.println("Apellido: " + getApellido());
+        System.out.println("Edad: " + getEdad());
+        System.out.println("Dorsal: " + getDorsal());
+        System.out.println("Demarcación: " + getDemarcacion());
+      
+    }
+
 
 
 

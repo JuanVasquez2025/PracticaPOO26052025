@@ -58,6 +58,6 @@ public abstract class Persona {
 
     }
 
- public abstract void  mostrarInf();
+    public abstract void  mostrarInf();
     
 }
