@@ -1,4 +1,4 @@
-public class Persona {
+public abstract class Persona {
 
     private int id;
     private String nombre;
@@ -58,5 +58,6 @@ public class Persona {
 
     }
 
+ public abstract void  mostrarInf();
     
 }
